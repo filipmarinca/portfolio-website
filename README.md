@@ -1,35 +1,54 @@
-# 💼 Personal Portfolio Website
+# Personal Portfolio Website
 
-A modern, responsive personal portfolio website showcasing web development skills and projects.
+A modern, responsive portfolio website built with Next.js and Tailwind CSS.
+
+## 🚀 Features
+
+- Responsive design
+- Modern UI with animations
+- Project showcase section
+- Skills display
+- Contact form
+- Dark theme
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Next.js
-- **Styling:** CSS Modules, Tailwind CSS
-- **Deployment:** Vercel/Netlify
+- **Framework:** Next.js 14
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Deployment:** Vercel
 
-## 📋 Features
+## 📦 Installation
 
-- Responsive design
-- Project showcase
-- Skills section
-- Contact form
-- Dark/Light mode
+```bash
+# Clone the repository
+git clone https://github.com/filipmarinca/portfolio-website.git
 
-## 👤 About
+# Navigate to the project
+cd portfolio-website
 
-Built by **Filip Marinca** - Full Stack Developer with experience in:
-- React.js, Next.js, TypeScript
-- Technical Support (HP, Conectys)
-- Full Stack Development (IMOSmart)
-- JavaScript, Python, PostgreSQL
-- AWS, Active Directory
+# Install dependencies
+npm install
 
-## 📧 Contact
+# Start development server
+npm run dev
+```
+
+## 🔧 Configuration
+
+Open `components/Contact.js` and update the email address:
+
+```javascript
+window.location.href = `mailto:filipmarinca@gmail.com?subject=Portfolio Contact...`;
+```
+
+## 📄 License
+
+MIT License
+
+## 👤 Contact
 
 - Email: filipmarinca@gmail.com
-- Phone: +40731201995
-- Location: Bucharest, Romania
-
----
-⭐ Star this repo if you find it useful!
+- Phone: +40 731 201 995
+- GitHub: https://github.com/filipmarinca
+- LinkedIn: https://linkedin.com/in/filipmarinca
